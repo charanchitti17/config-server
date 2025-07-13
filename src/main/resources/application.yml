@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: ConfigServer
+  cloud:
+    config:
+      server:
+        git:
+          uri: /Users/zop9926/igris/config-properties
+          default-label: master
+server:
+  port: 8888
